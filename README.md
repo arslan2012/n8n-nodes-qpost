@@ -14,7 +14,7 @@ In n8n: **Settings → Community Nodes → Install**, and enter `n8n-nodes-qpost
 
 ## Credentials
 
-1. Create a free account at [qpost.dev](https://qpost.dev/login?mode=signup) and
+1. Create a free account at [qpost.dev/n8n](https://qpost.dev/n8n) and
    connect TikTok, Instagram and/or YouTube under **Accounts**.
 2. Create an API key under **API Keys**.
 3. In n8n, add a **QPost API** credential and paste the key.
