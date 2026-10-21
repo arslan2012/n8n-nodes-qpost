@@ -1,0 +1,59 @@
+{
+	"name": "n8n-nodes-qpost",
+	"version": "0.1.0",
+	"description": "n8n node for QPost: publish videos and images to TikTok, Instagram and YouTube from a workflow",
+	"license": "MIT",
+	"homepage": "https://qpost.dev",
+	"keywords": [
+		"n8n-community-node-package",
+		"tiktok",
+		"instagram",
+		"youtube",
+		"social-media",
+		"publishing",
+		"qpost"
+	],
+	"author": {
+		"name": "QPost",
+		"email": "support@qpost.dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/arslan2012/n8n-nodes-qpost.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/QPostApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/QPost/QPost.node.js"
+		]
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.39.5",
+		"@n8n/node-cli": "*",
+		"@types/node": "^22.20.5",
+		"eslint": "9.39.4",
+		"n8n-workflow": "^2.16.0",
+		"prettier": "3.8.3",
+		"release-it": "20.2.0",
+		"typescript": "5.9.3"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

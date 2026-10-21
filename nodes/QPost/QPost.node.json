@@ -1,0 +1,10 @@
+{
+	"node": "n8n-nodes-qpost.qPost",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Communication"],
+	"resources": {
+		"credentialDocumentation": [{ "url": "https://qpost.dev/docs/" }],
+		"primaryDocumentation": [{ "url": "https://github.com/arslan2012/n8n-nodes-qpost#readme" }]
+	}
+}
