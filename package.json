@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-qpost",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n node for QPost: publish videos and images to TikTok, Instagram and YouTube from a workflow",
 	"license": "MIT",
 	"homepage": "https://qpost.dev",
