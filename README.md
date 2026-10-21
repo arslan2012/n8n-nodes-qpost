@@ -39,6 +39,12 @@ In n8n: **Settings → Community Nodes → Install**, and enter `n8n-nodes-qpost
 
 Every platform needs media: text-only posts are rejected.
 
+## Releasing
+
+Releases are published by GitHub Actions with npm trusted publishing and
+provenance (see `.github/workflows/publish.yml`): bump `version` in
+`package.json`, commit, and push a matching tag.
+
 ## Links
 
 - [QPost API & MCP docs](https://qpost.dev/docs/)
