@@ -3,14 +3,13 @@
 An [n8n](https://n8n.io) community node for [QPost](https://qpost.dev): publish
 videos and images to **TikTok, Instagram and YouTube** from a workflow.
 
-Posting to these platforms through their own APIs needs app reviews that take
-weeks (an unaudited TikTok app can only post privately). QPost already has
-them: you connect your accounts on qpost.dev, paste an API key into n8n, and
-publish publicly.
+QPost handles account connections, token refresh and media hosting. Its TikTok app is audited. Connect your own destination accounts on qpost.dev and use a QPost API key in n8n.
+
+**Want to try it before installing a package?** Use the [tested video-to-draft workflow](https://qpost.dev/guides/n8n-tiktok-instagram-youtube/?ref=github-n8n). It uses built-in HTTP Request nodes and includes downloadable JSON. This is also the option for n8n Cloud, where unverified community packages cannot be installed.
 
 ## Install
 
-In n8n: **Settings → Community Nodes → Install**, and enter `n8n-nodes-qpost`.
+On self-hosted n8n, when your instance permits community packages: **Settings → Community Nodes → Install**, and enter `n8n-nodes-qpost`.
 
 ## Credentials
 
